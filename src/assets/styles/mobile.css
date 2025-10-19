@@ -1,0 +1,310 @@
+/* 1024px ve altı */
+@media (max-width: 1024px) {
+    .navbar img {
+        height: 50px;
+    }
+
+    .navbar .nav-link {
+        font-size: 17px;
+        margin-right: 1rem;
+    }
+
+    .service-component {
+        flex-direction: column-reverse;
+    }
+
+    .service-component .service-icon img {
+        margin-bottom: 1rem;
+    }
+
+    .service-component .service-text .go-url {
+        margin-top: 1.5rem;
+    }
+
+    .home .studies .studies-item {
+        margin-right: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .home .process .item {
+        padding: 1.5rem;
+    }
+
+    .home .team .person .body {
+        height: auto;
+        font-size: 16px;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+
+    .home .team .person .header {
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+    }
+
+    .home .team .person .header .image-section {
+        margin-bottom: 1rem;
+    }
+
+    .home .testimonials {
+        min-height: 720px;
+    }
+
+    footer .first .socials {
+        display: none;
+    }
+
+    footer .second .news-form {
+        padding-left: 2rem;
+    }
+
+    footer .second .news-form input {
+        margin-bottom: 1rem;
+    }
+}
+
+/* 768px ve altı */
+@media (max-width: 768px) {
+    .home {
+        padding-top: 0;
+    }
+
+    .navbar-nav {
+        align-items: start !important;
+    }
+
+    .navbar .nav-link {
+        width: 100%;
+    }
+
+    .navbar .nav-link .btn {
+        width: 100% !important;
+    }
+
+    .home .hero-content {
+        flex-direction: column-reverse;
+    }
+
+    .home .hero-content .hero-image-zone img {
+        width: 60%;
+    }
+
+    .home .hero-content .hero-image-zone {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .home .hero-content .hero-text-zone {
+        padding-right: 0;
+    }
+
+    .title-component .description {
+        width: 70%;
+    }
+
+    .home .proposal {
+        padding: 2rem;
+    }
+
+    .home .proposal .image-section {
+        display: none;
+    }
+
+    .home .proposal .text-section .btn {
+        margin-top: 1rem;
+    }
+
+    .home .proposal .text-section .title {
+        margin-bottom: 0;
+    }
+
+    .home .studies {
+        flex-direction: column;
+        margin-bottom: 7rem;
+        padding: 3rem;
+    }
+
+    .home .studies .studies-item {
+        border: none;
+        border-bottom: 1px solid #fff;
+        padding-right: 0;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .home .studies .studies-item:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .home .process .item .header .info .title {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .home .team .row {
+        flex-direction: column;
+    }
+
+    .home .team .person .header {
+        flex-direction: row;
+    }
+
+    .home .contact .img img {
+        display: none;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+
+    footer .first {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    footer .first .img {
+        margin-bottom: 2rem;
+    }
+
+    footer .first .links {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .second {
+        flex-direction: column-reverse;
+    }
+
+    footer .second .news-form {
+        padding: 1rem;
+        min-height: auto;
+        margin-bottom: 1rem;
+    }
+
+    footer .second .news-form input {
+        margin-bottom: 0;
+    }
+
+    footer .third {
+        justify-content: space-between;
+    }
+}
+
+/* 425px ve altı */
+@media (max-width: 425px) {
+    .title-component {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .title-component .title {
+        margin-bottom: 1rem;
+    }
+
+    .title-component .description {
+        width: 100%;
+    }
+
+    .home .services {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .service-component {
+        padding: 2rem;
+        height: auto;
+        min-height: auto;
+    }
+
+    .service-component .service-text {
+        margin-right: 0;
+    }
+
+    .service-component .service-icon {
+        display: none;
+    }
+
+    .home .hero-content .hero-text-zone .title {
+        font-size: 50px;
+        line-height: 70px;
+        margin-bottom: 1.5rem;
+    }
+
+    .home .process .item .header .info .index {
+        font-size: 40px;
+    }
+
+    .home .process .item .header .info .title {
+        font-size: 20px;
+    }
+
+    .home .testimonials {
+        height: 750px;
+    }
+
+    .home .testimonials .item .comment {
+        padding: 2rem;
+        font-size: 16px;
+    }
+
+    .home .contact {
+        padding: 3rem;
+    }
+
+    footer .first {
+        margin-bottom: 1rem;
+    }
+
+    footer .first .links {
+        display: none;
+    }
+
+    footer .second .news-form  {
+        display: none;
+    }
+
+    footer .third .copyright {
+        font-size: 14px;
+    }
+
+    footer .third a {
+        font-size: 14px;
+    }
+}
+
+/* 375px ve altı */
+@media (max-width: 375px) {
+    .home .team .person .social-url {
+        display: none;
+    }
+
+    .home .testimonials {
+        height: 850px;
+    }
+
+    .home .contact {
+        padding: 2rem;
+    }
+}
+
+/* 320px ve altı */
+@media (max-width: 320px) {
+    .home .process .item .header .icon {
+        display: none;
+    }
+
+    .home .testimonials {
+        height: 990px;
+    }
+    
+    .home .contact {
+        padding: 1.5rem;
+    }
+}
